@@ -6,17 +6,15 @@
 
 <body>
     <section id="banner">
-        <img src="images/data.png" class="logo">
+        <img src="images/logo.png" class="logo">
         <div class="banner-text">
-            <h1>My projects portfolio</h1>
+            <h1>Sipho Dlamini</h1>
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <p>
-                I am a Mathematical Science graduate from the University of Johhanesburg, I am currently a learner in a two year Data Science graduate programme
-                hosted by Umuzi in collaboration with Telkom one of the biggest telecommunication in South Africa. I work under the prepaid 
-                services portfolio, my responsibility tracking weekly behavior and revenue from a selected group of customers in the company 
-                base. My interests are big data, data base management systems, python programming, forecasting and modelling.
-            </p>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+           <p>Hi and welcome to my personal website!</p>
+           <p> Here I will get to impress you with all the wonderfull the skills and experience that I've acquired during my learning journey.
+           </p>
             <div class="banner-btn">
                 <a href="#"><span></span> find out</a>
                 <a href="#"><span></span> read more</a>
@@ -47,14 +45,36 @@
         menuBtn.onclick = function(){
             if (sidenav.style.right == '-250px'){
                 sidenav.style.right = 0; 
-                menu.scr = "images/close.png"
+                menu.src = "images/close.png";
             }
             else{
-                sidenav.style.right = '-250px'
-                menu.scr = "images/close.png"
+                sidenav.style.right = '-250px';
+                menu.src = "images/menu.png";
             }
         }
     </script>
+<!--About me-->
+<section id="about">
+<div class="title-text">
+    <p>Background</p>
+    <h1>Personal details</h1>
+</div>
+<div class="about-box">
+    <div class="about-me">
+        <h1>About me</h1>
+    </div>
+    <div class="my-image">
+        <img src="images/sipho.jpg">
+    </div>
+</div>
+</section>
+
+<p>
+    I am a Mathematical Science graduate from the University of Johhanesburg, I am currently a learner in a two year Data Science graduate programme
+    hosted by Umuzi in collaboration with Telkom one of the biggest telecommunication in South Africa. I work under the prepaid 
+    services portfolio, my responsibility tracking weekly behavior and revenue from a selected group of customers in the company 
+    base. My interests are big data, data base management systems, python programming, forecasting and modelling.
+</p>
 
 </body>
 </html>
