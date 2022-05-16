@@ -4,7 +4,7 @@
 }
 
 #banner{
-    background: url(images/code.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), #4169e1), url(images/code.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
