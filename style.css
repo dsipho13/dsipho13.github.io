@@ -179,7 +179,7 @@ nav ul li a{
     text-align: center;
 }
 
-.about-me{
+.features{
     flex-basis: 50%;
 }
 
@@ -190,4 +190,105 @@ nav ul li a{
 .my-image img{
     width: 70%;
     border-radius: 10px;
+}
+.features h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color:#436bb0;
+}
+.feature-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.feature-icon .fa{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 8px;
+    color: #436bb0;
+    border:1px solid #436bb0;
+} 
+
+.about-text p {
+    padding: 0 20px;
+    text-align: initial;
+}
+
+
+@media screen and (max-width: 770px) {
+    .title-text h1{
+        font-size: 35px;
+    }
+    .features{
+        flex-basis: 100%;
+    }
+    .my-image{
+        flex-basis: 50%;
+        margin: auto;
+    }
+    .my-image img{
+        width: 100%;
+        border-radius: 10px;    }
+    
+}
+
+/*--about--*/
+#footer{
+    padding: 100px 0 20px;
+    background: #efefef;
+}
+
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left, .footer-right{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-right{
+    text-align: right;
+
+}
+.footer-row h1{
+    margin:10px 0;
+}
+.footer-row h1{
+    line-height: 35px;
+} 
+.footer-left .fa , .footer-right .fa{
+    font-size: 20px;
+    color: #436bb0;
+    margin: 10px;
+}
+.social-links{
+    text-align: center;
+}
+
+.social-links .fa{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #436bb0;
+    margin: 40px 5px 0;
+    color: #436bb0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.social-links .fa:hover{
+    background: #436bb0;
+    color: #fff;
+    transform: translateY(-7px);
 }
