@@ -134,6 +134,22 @@ nav ul li a{
     width: 100%;
     padding: 70px 0;
 }
+
+
+.main-text p{
+    width: 80px;
+    position: center;
+    border: 1px solid black;
+    background-color: #8fb0ea;
+    font-size: 15px;
+    color:black;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    
+}
+
 .title-text{
     text-align: center;
     padding-bottom: 70px;
