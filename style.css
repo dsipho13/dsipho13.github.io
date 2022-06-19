@@ -135,18 +135,28 @@ nav ul li a{
     padding: 70px 0;
 }
 
+.main-text{
+    margin: auto;
+    margin-top: 2%;
+    width: 60%;
+}
+
+.main-text h1{
+    margin: auto;
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+    text-align: center;
+}
+span{
+    color: #436bb0;
+ 
+}
 
 .main-text p{
-    width: 80px;
-    position: center;
-    border: 1px solid black;
-    background-color: #8fb0ea;
-    font-size: 15px;
-    color:black;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+   color: #555;
+   line-height: 22px;
+   text-align: center;
     
 }
 
